@@ -3,7 +3,9 @@ public class Main {
 
         String s = "au";
 
-        new Solution().lengthOfLongestSubstring(s);
+        int ans = new Solution().lengthOfLongestSubstring(s);
+
+        System.out.println(ans);
 
     }
 }

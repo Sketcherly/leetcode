@@ -5,7 +5,14 @@ public class Main {
         ListNode l1 = build(new int[]{2,4,9});
         ListNode l2 = build(new int[]{5,6,4,9});
 
-        new Solution().addTwoNumbers(l1, l2);
+        ListNode ans = new Solution().addTwoNumbers(l1, l2);
+
+        while (ans != null) {
+            System.out.print(ans.val);
+            System.out.print(" ");
+
+            ans = ans.next;
+        }
 
     }
 
