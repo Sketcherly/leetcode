@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        String s = "au";
+        String s = "abcabcbb";
 
         int ans = new Solution().lengthOfLongestSubstring(s);
 
